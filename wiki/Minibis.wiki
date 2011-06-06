@@ -7,7 +7,8 @@ This is the central hub for Minibis scripting.
 
 = Details =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+== First of all ... ==
+
+  * Be sure to understand/know the two magic words used in Minibis all the time: that's *Researcher* and *Proband*. Every time the term “Researcher” is being used, it will be referring to the safe or clean environment which is furthermore the VM-host based on Linux. The term  Proband” will be referring to the dirty environment or machine that is used for infection which is furthermore the VM-guest usually based on Windows (XP).
+
+  * When we talk about scripting in Minibis it's always just about *BASH-scripting on the Linux side (Researcher/VM-host)* and *BATCH-scripting on the Windows side (Proband/VM-guest)*. Actually, this is good news, as there isn't a totally new language that has to be learned to be able to customize Minibis.
