@@ -1,4 +1,4 @@
-#summary Fundamentals of Minibis
+#summary Fundamentals of Minibis. Read this first!
 
 = First of All ... =
 
