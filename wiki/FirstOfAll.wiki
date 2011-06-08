@@ -14,4 +14,4 @@ The process of analyzing one (malware-)sample is divided in multiple stages and 
 Besides this there's a special scripting-tab which is entirely dedicated to the sample-execution itself, but that is of course also bound to the Proband.
 
 == Replacementtokens ==
-As our scripts often are heavily tied to the currently processed sample there's an absolutely need the ability to include dynamic values. These values are addressed by *Replacementtokens* which are coded in the format "%token%".
+As our scripts often are heavily tied to the currently processed sample there's an absolutely need the ability to include dynamic values. These values are addressed by *Replacementtokens* which are coded in the format `%token%`.
