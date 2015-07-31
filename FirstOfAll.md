@@ -1,0 +1,17 @@
+# First of All ... #
+
+## Two Magic Words ##
+Be sure to understand/know the two magic words used in Minibis all the time: that's **Researcher** and **Proband**. Every time the term “Researcher” is being used, it will be referring to the safe or clean environment which is furthermore the VM-host based on Linux. The term  Proband” will be referring to the dirty environment or machine that is used for infection which is furthermore the VM-guest usually based on Windows (XP).
+
+## Scripting Fundamentals ##
+When we talk about scripting in Minibis it's always just about **BASH-scripting on the Linux side (Researcher)** and **BATCH-scripting on the Windows side (Proband)**. Actually, this is good news, as there isn't a totally new language that has to be learned to be able to customize Minibis.
+
+## Events and Actions ##
+Minibis customization is mostly done by scripting **actions** which get invoked when specific **events** occur. Currently such events are nothing more than **timed triggers**.
+
+The process of analyzing one (malware-)sample is divided in multiple stages and each of those usually triggers one event which we could use to script. Note that each event also has ties to its location it's been triggered from - therefore the scripting-tabs are separated into Researcher and Proband.
+
+Besides this there's a special scripting-tab which is entirely dedicated to the sample-execution itself, but that is of course also bound to the Proband.
+
+## Replacementtokens ##
+As our scripts often are heavily tied to the currently processed sample there's an absolutely need the ability to include dynamic values. These values are addressed by **Replacementtokens** which are coded in the format `%token%`.
